@@ -4,9 +4,9 @@
 name = "Emil"
 license = "MIT"
 licenselink = "https://github.com/emilabraham/emil/blob/master/LICENSE"
-description = "A very, very minimal theme"
+description = "An extremely minimal theme"
 homepage = "https://emilabraham.com/"
-tags = [minimal]
+tags = ["Minimal"]
 features = []
 min_version = "0.115.3"
 
