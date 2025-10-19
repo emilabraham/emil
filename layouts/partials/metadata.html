@@ -1,2 +1,2 @@
-{{ $dateTime := .PublishDate | time.Format "2023-10-15" $dateTime }}
-<time datetime="{{ $dateTime }}">{{ $dateTime }}</time>
+{{ $datetime := .PublishDate | time.Format "2006/01/02" }}
+<time datetime="{{ .PublishDate }}">{{ $datetime }}</time>

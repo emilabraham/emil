@@ -1,0 +1,2 @@
+{{ $datetime := .PublishDate | time.Format "January 2, 2006" }}
+<time datetime="{{ .PublishDate }}">{{ $datetime }}</time>
