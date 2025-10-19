@@ -1,2 +1,2 @@
-{{ $dateTime := .PublishDate | time.Format ":date_long" }}
+{{ $dateTime := .PublishDate | time.Format ":date_short" }}
 <time datetime="{{ $dateTime }}">{{ $dateTime }}</time>
